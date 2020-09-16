@@ -28,7 +28,7 @@ In VTEX IO, events are often used as triggers to other actions, such as sending 
    }
    ```
 
-   > Note: you can also globally declare your event context in the `index.ts` file. If you do so, you doesn't need to import in every file you want to use it.
+   > Note: you can also globally declare your event context in the `index.ts` file. If you do so, you don't need to import in every file you want to use it.
 
 3. Now, to use the _Analytics client_, do the following:
 
@@ -42,5 +42,6 @@ In VTEX IO, events are often used as triggers to other actions, such as sending 
    ```
 
 4. Finally, run `vtex link` and for every event fired, you should see the live users retrieved from the _Analytics_.
+
    The result should be like this:
    ![image](https://user-images.githubusercontent.com/43679629/85150833-69ffda80-b229-11ea-9260-b9255adf7d9c.png)
